@@ -184,7 +184,7 @@ h1, h2, h3, h5 {
   width: 150px;
   height: 150px;
   object-fit: cover;
-  object-position: center top;
+  object-position: center 30%;
 }
 
 .member-card h3 {
