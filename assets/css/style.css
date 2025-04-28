@@ -61,8 +61,12 @@ nav a:hover::after {
 }
 
 .navbar-brand {
-  font-weight: bold;
-  font-size: 1.8rem;
+  font-family: 'Cinzel', serif;
+  font-weight: 700;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+  color: #333
 }
 
 .nav-link {
