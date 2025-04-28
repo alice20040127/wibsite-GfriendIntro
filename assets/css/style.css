@@ -1,13 +1,19 @@
 body {
   font-family: 'Helvetica Neue', sans-serif;
-  padding-top: 70px;
+  padding-top: 90px;
   background-color: #f8f9fa;
 }
 
 header {
-  padding: 20px 0;
-  background-color: #f8f9fa;
+  background: rgba(255, 255, 255, 0.9);
+  backdrop-filter: blur(8px);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 15px 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
   transition: all 0.3s ease;
 }
 
