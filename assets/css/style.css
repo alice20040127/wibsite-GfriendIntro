@@ -184,7 +184,30 @@ h1, h2, h3, h5 {
   width: 150px;
   height: 150px;
   object-fit: cover;
+}
+
+.Sowon{
+  object-position: center 25%;
+}
+
+.Eunha{
+  object-position: center 20%;
+}
+
+.Yerin{
   object-position: center 30%;
+}
+
+.Yuju{
+  object-position: center 20%;
+}
+
+.SinB{
+  object-position: center 30%;
+}
+
+.Umji{
+  object-position: center 20%;
 }
 
 .member-card h3 {
