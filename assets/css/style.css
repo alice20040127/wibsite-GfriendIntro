@@ -135,6 +135,10 @@ h1, h2, h3, h5 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-family: 'Cinzel', serif;
+  font-weight: 700;
+  font-size: 2rem;
+  letter-spacing: 1px;
   color: white;
   text-shadow: 2px 2px 6px rgba(0,0,0,0.8);
   text-align: center;
