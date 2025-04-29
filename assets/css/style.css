@@ -222,6 +222,15 @@ h1, h2, h3, h5 {
   font-size: 1rem;
 }
 
+.album-card {
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.album-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
 .swiper-pagination-bullet {
   background: white;
   opacity: 0.7;
