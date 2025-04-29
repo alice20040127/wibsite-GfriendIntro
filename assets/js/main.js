@@ -32,3 +32,20 @@ AOS.init({
       }
     });
   }
+
+function openAlbumModal(title, imgSrc, songs) {
+  document.getElementById('modal-album-title').innerText = title;
+  document.getElementById('modal-album-img').src = imgSrc;
+
+  const songList = document.getElementById('modal-song-list');
+  songList.innerHTML = '';
+  songs.forEach(song => {
+    const li = document.createElement('li');
+    li.textContent = song;
+    li.classList.add('mb-2');
+    songList.appendChild(li);
+  });
+
+  const modal = new bootstrap.Modal(document.getElementById('albumModal'));
+  modal.show();
+}
